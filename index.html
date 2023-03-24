@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="./assets/style.css">
+</head>
+
+<body>
+    <div class="game-board">
+        <button class="btn" value="1">
+            <div class="box" id="top-left"></div>
+        </button>
+        <button class="btn" value="2">
+            <div class="box" id="top-middle"></div>
+        </button>
+        <button class="btn" value="3">
+            <div class="box" id="top-right"></div>
+        </button>
+        <button class="btn" value="4">
+            <div class="box" id="middle-left"></div>
+        </button>
+        <button class="btn" value="5">
+            <div class="box" id="middle-middle"></div>
+        </button>
+        <button class="btn" value="6">
+            <div class="box" id="middle-right"></div>
+        </button>
+        <button class="btn" value="7">
+            <div class="box" id="bottom-left"></div>
+        </button>
+        <button class="btn" value="8">
+            <div class="box" id="bottom-middle"></div>
+        </button>
+        <button class="btn" value="9">
+            <div class="box" id="bottom-right"></div>
+        </button>
+    </div>
+    <div id="player">O's Turn</div>
+    <button id="reset" value="reset" onclick="window.location.replace('')">Play Again</button>
+    <script type="text/javascript" src="./scripts/app.js"></script>
+</body>
+
+</html>
